@@ -1,0 +1,26 @@
+{
+  "name": "live-blogger",
+  "version": "0.0.0",
+  "description": "A real-time blogging app.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.4.3",
+    "consolidate": "~0.10.0",
+    "express": "~4.5.1",
+    "moment": "~2.7.0",
+    "morgan": "~1.1.1",
+    "orchestrate": "~0.2.0",
+    "handlebars": "^2.0.0-alpha.4",
+    "socket.io": "^1.0.6",
+    "request": "^2.37.0",
+    "kew": "^0.4.0",
+    "debug": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chad Miller",
+  "license": "ISC"
+}
