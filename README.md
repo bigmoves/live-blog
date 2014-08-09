@@ -1,4 +1,18 @@
 Live Blogging App
-=================
+===========
 
-My idea is to make a simple live blogging app the hosts a live stream of updates for an event (think WWDC, CES, Google I/O, etc.). It will have a publish page that an author can use to post updates for a particular event and an event page that displays updates for the event in real-time.
+Uses:
+
+- [Node.js](https://nodejs.org)
+- [Express.js](https://www.npmjs.org/package/express)
+- [Socket.io](http://socket.io)
+- [Orchestrate.io](http://orchestrate.io/)
+
+```sh
+$ git clone https://github.com/chadtmiller/live-blog.git
+$ npm install
+$ ./script/dev
+# open http://localhost:3000
+# or
+$ PORT=8000 ./script/dev
+```
