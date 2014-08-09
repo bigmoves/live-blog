@@ -1,4 +1,4 @@
-var SOCKET_HOST = 'http://code-126639.usw1-2.nitrousbox.com/updates';
+var SOCKET_HOST = 'http://cm-live-blog.herokuapp.com/updates';
 var socket = io.connect(SOCKET_HOST);
 
 var showdown = new Showdown.converter();
