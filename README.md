@@ -1,6 +1,8 @@
 Live Blogging App
 ===========
 
+A live blogging app for events and presentations. Event updates appear in real-time as they are published from the "Publish Updates" view.
+
 Uses:
 
 - [Node.js](https://nodejs.org)
